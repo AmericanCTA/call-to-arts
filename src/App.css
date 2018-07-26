@@ -1,27 +1,37 @@
 .App {
-  text-align: center;
+    text-align: center;
+    font-family: 'Roboto';
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+    background: #173753;
 }
-
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    @media only screen and (max-width: 600px) {
+        height: 300px!important;
+    }
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-family: 'HumanNatureDemo';
+    font-size: 5.5em;
+    text-shadow: 2px 2px 2px black;
 }
+
 
 .App-intro {
   font-size: large;
 }
-
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto_/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: HumanNatureDemo;
+    src: url(fonts/HumanNatureDemo.ttf);
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
