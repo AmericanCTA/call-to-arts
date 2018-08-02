@@ -3,24 +3,45 @@
     font-family: 'Roboto';
 }
 body {
-    background: #173753;
-}
-.App-header {
-    height: 150px;
-    padding: 20px;
-    color: white;
-    @media only screen and (max-width: 600px) {
-        height: 300px!important;
-    }
 }
 
 .App-title {
     font-family: 'HumanNatureDemo';
-    font-size: 5.5em;
+    font-size: 4.5em;
     text-shadow: 2px 2px 2px black;
+    color: white;
+    margin-bottom: 10px;
+}
+.card-margin {
+    margin-bottom: 40px;
+}
+.card-container {
+    margin-top:-25px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
 }
 
+.top-linear-gradient {
+    background: #0385e8;
+    border-bottom: 10px #FFDC54 solid;
+}
 
+.bg-red-blue {
+    background-image: linear-gradient(to right top, #a01e20, #940d43, #771e5c, #4e2c68, #1e3263);
+}
+.bg-blue {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(43,89,195,1) 0%, rgba(30,50,99,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(43,89,195,1)), color-stop(100%, rgba(30,50,99,1))); /* safari4+,chrome */
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(43,89,195,1) 0%, rgba(30,50,99,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(43,89,195,1) 0%, rgba(30,50,99,1) 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(43,89,195,1) 0%, rgba(30,50,99,1) 100%); /* ie10+ */
+    background:radial-gradient(ellipse at center, rgba(43,89,195,1) 0%, rgba(30,50,99,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2B59C3', endColorstr='#1E3263',GradientType=1 ); /* ie6-9 */
+}
+
+/* background-image: linear-gradient(to right top, #2b59c3, #c14cb7, #ff5285, #ff8c49, #ffd119); */
 .App-intro {
   font-size: large;
 }
