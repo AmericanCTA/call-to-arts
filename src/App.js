@@ -136,7 +136,7 @@ class App extends Component {
                                       <a href="https://www.pbs.org/newshour/show/whats-happened-to-the-truth-under-president-trump" target="_blank">The President of the United States is telling us not to believe what we see and hear.</a>
                                     </p>
                                     <p>
-                                        In Helsinki, President Donald Trump showed he trusts the word of Putin over America's Intelligence Institutions on the world stage. Congress did nothing to act on this blatant betrayal of the American people. President Trump now knows he can do anything with no repercussions, even come after objective truth.
+                                        In Helsinki, President Donald Trump showed the world he trusts the word of Putin over America's Intelligence Institutions. Congress did nothing to act on this blatant betrayal of the American people. President Trump now knows he can do anything with no repercussions, even come after objective truth.
                                     </p>
                                     <center>
                                     <h3>
